@@ -8,7 +8,9 @@
  *
  * Main module of the application.
  */
-angular
+ /* global app:true */
+ /* exported app */
+var app = angular
   .module('angNewsApp', [
     'ngAnimate',
     'ngAria',

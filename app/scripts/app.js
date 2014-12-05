@@ -22,6 +22,7 @@ var app = angular
     'ngTouch',
     'firebase'
   ])
+  .constant('FIREBASE_URL', 'https://radiant-inferno-9874.firebaseio.com/')
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
